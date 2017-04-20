@@ -1,4 +1,4 @@
-from coreapi import exceptions
+from . import exceptions
 from coreapi.compat import string_types, text_type, urlparse, _TemporaryFileWrapper
 from collections import namedtuple
 import os
